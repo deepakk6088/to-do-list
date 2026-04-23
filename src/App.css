@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-section,
+.search-section,
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.filter-buttons button {
+  margin-bottom: 10px;
+}
+
+.task-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+  background: #f9fafb;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.task-left {
+  padding-top: 4px;
+}
+
+.task-center {
+  flex: 1;
+}
+
+.task-center h3 {
+  margin: 0 0 8px 0;
+}
+
+.task-center p {
+  margin: 0;
+  color: #444;
+}
+
+.task-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
